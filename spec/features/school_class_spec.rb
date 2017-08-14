@@ -61,6 +61,7 @@ describe 'Show page' do
 
   it 'renders properly' do
     visit school_class_path(school_class)
+    # byebug
     expect(page.status_code).to eq(200)
   end
 
